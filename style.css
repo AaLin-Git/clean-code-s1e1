@@ -35,7 +35,8 @@
   margin: 0 auto 0;
 }
 
-.item__task {
+.item__task,
+.main__new-task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -60,7 +61,8 @@
   outline: none;
 }
 
-.item__button {
+.item__button,
+.button {
   background: none;
   border: 0px;
   color: #888;
@@ -70,7 +72,8 @@
   cursor: pointer;
 }
 
-.item__button:hover {
+.item__button:hover,
+.button:hover {
   color: #3a3A3a;
 }
 
@@ -87,7 +90,8 @@
   text-transform: uppercase;
 }
 
-.input-text {
+.input-text,
+.main__new-task {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -100,7 +104,8 @@
   color: #888;
 }
 
-.input-text:focus {
+.input-text:focus,
+.main__new-task:focus {
   color: #333;
 }
 
