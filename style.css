@@ -46,16 +46,16 @@
 }
 
 .main__task {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .task__item, .main__heading {
-  list-style:none;
+  list-style: none;
 }
 
 .item__input,.item__button{
-  outline:none;
+  outline: none;
 }
 
 .item__button {
@@ -164,14 +164,14 @@
 /* Edit Task */
 
 .input-text {
-  display:none
+  display: none
 }
 
 .input-text_edit-mode {
-  display:inline-block;
-    width:224px
+  display: inline-block;
+    width: 224px
 }
 
 .item__label_edit-mode {
-  display:none;
+  display: none;
 }
