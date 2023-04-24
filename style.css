@@ -50,11 +50,13 @@
   padding: 0px;
 }
 
-.task__item, .main__heading {
+.task__item,
+.main__heading {
   list-style: none;
 }
 
-.item__input,.item__button{
+.item__input,
+.item__button{
   outline: none;
 }
 
@@ -169,7 +171,7 @@
 
 .input-text_edit-mode {
   display: inline-block;
-    width: 224px;
+  width: 224px;
 }
 
 .item__label_edit-mode {
